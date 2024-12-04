@@ -1,0 +1,64 @@
+/* Global styles */
+/* General App Container */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Fill the viewport height */
+  width: 100%;
+  background-color: #121212; /* Background for dark theme */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    min-height: 100vh; /* Full height of the viewport */
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Header */
+.app-title {
+  display: flex;
+  background-color: #E63946; /* Red accent */
+  color: #FFFFFF;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  flex: 0;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+/* Content */
+.content {
+  flex: 1; /* Expands to fill available space */
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  padding: 20px;
+  margin: 10px auto;
+  width: 100%;
+  background-color: #1D3557; /* Dark blue background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1D3557;
+  color: #A8DADC;
+  border-top: 2px solid #E63946;
+  font-size: 0.9rem;
+}

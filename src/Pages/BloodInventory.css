@@ -1,0 +1,41 @@
+/* BloodInventory.css */
+.inventory-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+  
+  .inventory-container h1 {
+    margin-bottom: 20px;
+    color: #E63946; /* Red accent */
+  }
+  
+  .inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inventory-table th, .inventory-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .inventory-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .inventory-table tr:hover {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+  }

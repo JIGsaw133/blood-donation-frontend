@@ -1,0 +1,39 @@
+/* Navbar */
+.navbar {
+    background-color: #1D3557; /* Dark blue */
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar-list li {
+    display: inline;
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: #FFFFFF; /* White text */
+    font-size: 1.1rem;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-list li a.active {
+    color: #E63946; /* Red for active link */
+    border-bottom: 2px solid #E63946;
+}
+
+.navbar-list li a:hover {
+    color: #A8DADC; /* Teal hover effect */
+}
